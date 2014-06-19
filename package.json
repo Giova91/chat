@@ -1,9 +1,16 @@
-{  
-    "name": "chat",  
+{
+    "name": "chat",
     "version": "0.0.1",
-    "description": "a simple chat app realized in Node.js",  
-    "dependencies": {  
-        "express": "",  
-        "socket.io": ""  
-    }  
+    "description": "a simple chat app realized in Node.js",
+    "dependencies": {
+        "express": "",
+        "socket.io": ""
+    },
+    "subdomain": "chat",
+    "scripts": {
+        "start": "app.js"
+    },
+    "engines": {
+        "node": "0.10.x"
+    }
 }
